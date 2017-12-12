@@ -1,4 +1,4 @@
-$bg-color: #333;
+$bg-color: #fff;
 $font-color: #fff;
 $primary-color: #008ed6;
 $dark-overlay: rgba(0,0,0,0.7);
@@ -60,6 +60,21 @@ body{
 		font-size: 22px;
 		color: #024c9a !important;
 		font-weight: 600;
+	}
+}
+
+#form-section{
+	background-color: #fff !important;
+	
+	h1.form-title{
+		font-size: 26px;
+		color: #024c9a;
+		display:none;
+	}
+	
+	h1.form-title .form-title-span1{
+		font-size: 15px;
+		color: #024c9a;
 	}
 }
 

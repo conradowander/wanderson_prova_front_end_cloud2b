@@ -1,5 +1,5 @@
 body {
-  background: #333;
+  background: #fff;
   color: #fff; }
 
 .navbar {
@@ -36,6 +36,16 @@ body {
     font-size: 22px;
     color: #024c9a !important;
     font-weight: 600; }
+
+#form-section {
+  background-color: #fff !important; }
+  #form-section h1.form-title {
+    font-size: 26px;
+    color: #024c9a;
+    display: none; }
+  #form-section h1.form-title .form-title-span1 {
+    font-size: 15px;
+    color: #024c9a; }
 
 footer {
   background-color: #690076; }
