@@ -1,0 +1,41 @@
+body {
+  background: #333;
+  color: #fff; }
+
+.navbar {
+  border-bottom: #008ed6 3px solid;
+  font-size: 26px;
+  background-color: #d7d7d7 !important; }
+  .navbar li a {
+    color: #690076 !important; }
+  .navbar li a:hover, .navbar li a.active {
+    text-decoration: underline; }
+
+#home-section {
+  background: #690076;
+  background-size: cover;
+  background-attachment: fixed; }
+  #home-section .card-form {
+    opacity: 0.8; }
+
+#explore-section {
+  background-color: #f4f5f7; }
+  #explore-section .top-sallers-title {
+    color: #024c9a;
+    font-size: 26px; }
+  #explore-section .card img {
+    max-width: 200px; }
+  #explore-section .card .card-title {
+    font-size: 15px;
+    color: #6d6d6d; }
+  #explore-section .card .card-text.text1 {
+    font-size: 22px;
+    color: #5a5a5a !important;
+    font-weight: 600; }
+  #explore-section .card .card-text.text2 {
+    font-size: 22px;
+    color: #024c9a !important;
+    font-weight: 600; }
+
+footer {
+  background-color: #690076; }
